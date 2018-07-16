@@ -1,11 +1,10 @@
 final int SQUARESIZE = 100;
 Board board;
-
-void setup() {
+void setup(){
   surface.setSize(6*SQUARESIZE, 4*SQUARESIZE);
   board = new Board();
 }
 
-void draw() {
-  board.draw();
+void draw(){
+board.draw();  
 }
